@@ -1,0 +1,26 @@
+body {
+  position: relative;
+  width: 1446px;
+  height: 2020px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%),
+              linear-gradient(0deg, rgba(221, 150, 56, 0.35), rgba(221, 150, 56, 0.35)),
+              url(https://i.imgur.com/oj0zRr6.jpg);
+}
+
+div {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body /* text */ {
+  color: white;
+}

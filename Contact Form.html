@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <div>
+  <title>Contact Me: Needlepoint Music</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="stylesheet-contact-form.css" rel="stylesheet"/>
+    <h1 id="title">Contact Me</h1>
+    <p id="description">Join the Studio! Understand Music.</p>
+  </head>
+  <body>
+    <form id="survey-form">
+      <p>
+        <label id="name-label">Name:</label>
+          <input id="name" type="text" placeholder="Name" required>
+      </P>
+      <p>
+        <label id="email-label">Email:</label>
+          <input id="email" type="email" placeholder="Email" required>
+      </p>
+      <p>
+         <label id="number-label">Number:</label>
+          <input id="number" type="number" min="1" max="10" placeholder="0" required>
+      </p>
+      <p>
+     <label>Number?
+      <select id="dropdown">
+        <option value="">(select one)</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+      </select>
+       </label>
+      </p>
+      <p>
+     <label>Radio?
+       <input name="radio" type="radio" value="option-one">One</input>
+       <input name="radio" type="radio" value="option-two">Two</input>
+      </label>
+      </p>
+      <p>
+      <label>Checkbox?
+        <input name="checkbox" type="checkbox" value="check-one">One</input>
+        <input name="checkbox" type="checkbox" value="check-two">Two</input>
+      </label>
+      </p>
+      <p>
+        <label>Comment?
+        <textarea name="comment" placeholder="Comment?"></textarea>
+        </label>
+      </p>
+      <p>
+      <label>
+        <input id="submit" name="submit" type="submit">
+      </label>
+      </p>
+    </form>
+    </body>
