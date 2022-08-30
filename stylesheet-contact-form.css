@@ -1,26 +1,120 @@
 body {
-  position: relative;
+  position: auto;
+  color: white;
   width: 1446px;
   height: 2020px;
+  font-family: 'Noto Serif TC';
+  font-size: 16px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%),
               linear-gradient(0deg, rgba(221, 150, 56, 0.35), rgba(221, 150, 56, 0.35)),
               url(https://i.imgur.com/oj0zRr6.jpg);
+  background-size: auto;
+  background-position: center;
 }
 
-div {
-  width: 80%;
+.title {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 150px;
 }
 
-p {
-  width: 80%;
+.subtitle {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 0;
+  mogin-bottom: 38px;
+  font-family: 'Noto Serif TC';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
 }
 
-body /* text */ {
+
+.form {
+  display: block;
+  position: center;
+  width: 50%;
+  background-color: #1E1E1E;
+  margin: auto;
+  box-shadow: -15px 2px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 28PX;
+  padding: 10px 2.5rem;
+  font-size: 16px;
+}
+
+input, select, textarea {
+  display: block;
+}
+
+.radio {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+input[type=radio] {
+  width: 18px;
+  height: 18px;
+}
+
+.other {
+  display: inline;
+  border: 0;
+  border-bottom: 1px solid white;
+  background-color: #1E1E1E;
   color: white;
+  font-family: 'Noto Serif TC';
+  font-size: 16px;
+}
+
+
+
+.text-area {
+  width: 100%;
+  height: 165px;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-top: 12px;
+  font-family: 'Noto Serif TC';
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.entry {
+  width: 100%;
+  height: 55px;
+  border-radius: 10px;
+  padding-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: 'Noto Serif TC';
+  font-size: 18px;
+}
+
+p2 {
+  display: block;
+  padding-top: 22px;
+}
+
+.label {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+button {
+  width: 330px;
+  height: 74px;
+  left: 557px;
+  top: 1637px;
+  font-family: 'Noto Serif TC';
+  font-size: 34px;
+  font-weight: 700;
+  background: #DBAB2E;
+  border-radius: 28px;
+  border: 0;
+  display: block;
+  margin: 1em auto;
 }

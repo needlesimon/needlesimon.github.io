@@ -1,58 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <div>
   <title>Contact Me: Needlepoint Music</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="stylesheet-contact-form.css" rel="stylesheet"/>
-    <h1 id="title">Contact Me</h1>
-    <p id="description">Join the Studio! Understand Music.</p>
-  </head>
-  <body>
-    <form id="survey-form">
-      <p>
-        <label id="name-label">Name:</label>
-          <input id="name" type="text" placeholder="Name" required>
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+<body>
+  <div>
+    <h1 id="title" class="title">Contact Me</h1>
+    <p id="description" class="subtitle">Join the Studio! Understand Music.</p>
+  </div>
+  <div class="form">
+    <form id="contact-form">
+      <p class="form-control">
+        <label id="name-label" class="label">Name:</label>
+          <input id="name" type="text" placeholder="Name" class="entry" required>
       </P>
-      <p>
-        <label id="email-label">Email:</label>
-          <input id="email" type="email" placeholder="Email" required>
+      <p class="form-control">
+        <label id="email-label" class="label">Email:</label>
+          <input id="email" type="email" placeholder="Email" class="entry" required>
       </p>
-      <p>
-         <label id="number-label">Number:</label>
-          <input id="number" type="number" min="1" max="10" placeholder="0" required>
+      <p class="form-control">
+         <label id="number-label" class="label">Phone Number:</label>
+          <input id="phone-number" type="text" min="1" max="10" placeholder="(xxx) xxx-xxxx" class="entry" required>
       </p>
-      <p>
-     <label>Number?
-      <select id="dropdown">
-        <option value="">(select one)</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-      </select>
+      <p class="form-control">
+        <label class="label">Preferred Instrument:
+          <select id="dropdown" class="entry">
+            <option value="" required>(select one)</option>
+            <option value="1">Guitar (Acoustic/Electric)</option>
+            <option value="2">Bass Guitar (Electric)</option>
+          <option value="3">Ukulele</option>
+          <option value="3">Piano/Keyboard</option>
+          <option value="4">Music Theory/Songwriting</option>
+          <option value="5">Other</option>
+        </select>
        </label>
-      </p>
-      <p>
-     <label>Radio?
-       <input name="radio" type="radio" value="option-one">One</input>
-       <input name="radio" type="radio" value="option-two">Two</input>
+    </p>
+  <div class="selector-one">
+    <p>
+     <label class="label" class="entry">Select Skill Level
+       <p2><input name="radio" type="radio" value="option-one" class="radio">Absolute Beginner</input></p2>
+       <p2><input name="radio" type="radio" value="option-two" class="radio">Musical, but Starting a New Instrument</input></p2>
+       <p2><input name="radio" type="radio" value="option-three" class="radio">Intermediate on this Instrument</input></p2>
+       <p2><input name="radio" type="radio" value="option-three" class="radio">Experienced and Looking to Challenge Myself</input></p2>
       </label>
-      </p>
-      <p>
-      <label>Checkbox?
-        <input name="checkbox" type="checkbox" value="check-one">One</input>
-        <input name="checkbox" type="checkbox" value="check-two">Two</input>
+    </p>
+  </div>
+  <div class="selector-two">
+    <p2>
+      <label class="label">Where did you hear about ChordKaleidoscope?
+      <p2><input name="radio" type="radio" value="option-oneB" class="radio">Friend/Family</input></p2>
+      <p2><input name="radio" type="radio" value="option-twoB" class="radio">Flier/QR Code</input></p2>
+      <p2><input name="radio" type="radio" value="option-threeB" class="radio">Web Search/Google Ad</input></p2>
+      <p2><input name="radio" type="radio" value="option-threeB" class="radio">Other:</p2>
       </label>
-      </p>
-      <p>
-        <label>Comment?
-        <textarea name="comment" placeholder="Comment?"></textarea>
-        </label>
-      </p>
-      <p>
+    </p2>
+    </div>
+    <p>
+      <label class="label">Tell us about you!
+        <textarea name="comment" placeholder="I'm tired of learning off of YouTube because..." class="text-area"></textarea>
+      </label>
+    </p>
+    <p>
       <label>
         <input id="submit" name="submit" type="submit">
       </label>
       </p>
     </form>
+    </div>
     </body>
